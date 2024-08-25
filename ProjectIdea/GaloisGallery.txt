@@ -95,5 +95,8 @@ The first step is to
    Basic Set Theory and property of addition and multiplication of natural number with simple visualization animation. (e.g. Matplotlib and/or Manim)
 5. Slowly add new feature of the game, continue self study math and draw the new mathematical comic.
 
+Name 
+* GaloisGallery
+
 Here is one of the similar project.
 * https://youtu.be/KuxFWwwlEtc?si=kNocsSj0rlbXjdg-
