@@ -1,0 +1,17 @@
+It is a good idea to create open source website (GitHub) mix with 80000hours org website idea, where there are 7 sections 
+1. Guide to open source 
+2. Learning tool e.g. Python,  Git etc with exercise 
+3. Problem profile (rank by possible to solve, matter for many people and neglected)
+4. Learning math (mostly practical math, with exercise) e.g. DSA, Linear Algebra etc.
+5. Project (with GitHub website, grouped by similar problem scope)
+6. Forum 
+7. Podcast and video
+
+So it is similar to 80000hours, but it is suitable for people who want to have a positive impact now by creating useful software, 
+instead of just find the long term career path as 80000hours guide. 
+Another inspiration is that I want to encourage project based learning, 
+so student (and other people) have better learning experience. 
+
+I have 2 names for this project 
+1. SCP (Solvable Collaborative Problem)
+2. P&NP (Problem and Neglected Problem) 

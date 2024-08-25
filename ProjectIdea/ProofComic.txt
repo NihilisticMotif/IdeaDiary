@@ -1,0 +1,99 @@
+"The difference between fiction and reality. Fiction has to make sense." by Tom Clancy.
+
+Writing and Mathematical Proof Writing have one common things, 
+which is about convince why the audience should agree with the message.
+
+In writing, the author have message they want to communicate with the audience 
+and they also have the reason why or why don't the audience agree with them. 
+Sometimes fiction is the form of writing that does not directly show the concept, 
+but show  the concept through how the character interact with each other, and let the audience interpret it. 
+Comic and manga is the fiction with artistic pictures.
+
+In proof writing, the author use logic, set, axioms and theorem to show that the statement is true or not. 
+The law of proof writing is always well defined.
+
+So I have the idea to create a game about comic and mathematics.
+The smallest components of this game includes
+1. Set Theory and Logic
+2. The Zermelo-Fraenkel axioms
+3. Peano Axioms
+4. Function (and other maps between 2 sets)
+5. Turing Machine and Lambda Calculus
+6. The game will include other things, e.g. group theory, category theory, graph theory etc.
+
+The player can use that components to create
+1. Conjecture
+2. Proof (or disprove) of the Conjecture
+3. Question (e.g. find the value of x etc.)
+4. Solution of that questions.
+There is also the proof assistant (e.g. Lean or my own proof assistant) to check if the customized statement is or is not valid.
+Then player can converts that logical symbol in to the visualization animation. 
+
+Here is the visualization Idea 
+* Visualization by define visualized Function as map 
+between variables (and statement) to R^2 or R^3,or R^4 with customized view and customized colors. 
+* Some visualized function only accepts valid type of the domain (statement and variable)
+* Visualize R as line, C as plane, number mod integer as polygon.
+* Allow the user to Visualize circle as 
+ * 0degree = 0
+ * 180degree = infinity and minus infinitity 
+ * 90degree = 1
+ * -90degree = -1
+* Also allow the user to Visualize real function as 1D or 2d. 
+* Visualize vector and matrix as 2D or 3D arrow. Use time as extradimention. 
+* Allow the user to selected the example for Visualization and automated check if the example is valid based on the given statement.
+* The proof comic will automatically record each mathematic visualized animation 
+  and add the formal statement as the subtitle. It can be imported as Blender file, 
+  so the user can modify it and it also accept the Blender file so it can automated the user customized character and setting. 
+* The player than can import and edit visualization animation, such that they have their own mathematical comic.
+* The game can also create comic (manga, and storyboard) by screen shot and add the formal symbol in the empty panel.  
+  User can also use it for editing their proof comic. 
+* There are also many idea to add.
+
+Feature of this game 
+1. Have Proof Assistant 
+2. Have visualization animation.
+3. Comic Libery make by other player 
+4. Tutorial Comic (How to use this game?)
+5. Player can directly connect Git to this game, such that they can import their animation to GitHub.
+6. Course on Set Theory, Linear Algebra, Machine Learning etc.
+7. Copetition (Solve the game and/or create creative comic)
+
+Related Technology (I might use it directly and/or create similar technology)
+1. Blender (Animation)
+2. Lean (Proof Assistant)
+3. Git (Version Control, in case where multiple player want to create their comic together.)
+4. Latex
+
+Other Idea 
+1. Create Non Commercial Fan Art (e.g. 3Blue1Brown, Dr Stone, Alice's Adventures in Wonderland, Jojo, Star Wars, Attack on Titan, The Imitation Game, 
+   other Scifi etc.) that also mainly based on mathematics and this game, then post on YouTube and/or other social media to promote this game.
+2. Create original mathematical comic using this game and post on YouTube and/or other social media (e.g. Webtoon etc.) to promote this game.
+3. Create the mathematical and science (that directly related to mathematics) discovery as the comic or animation and post it on YouTube to promote it.
+4. Make it open source and then gain incomes in alternative ways e.g.
+ * Someone want to use this game for Commercial purpose.
+ * Gain sponcership.
+5. We won't add Language Model and Art Generative AI because 
+ * This game is in the early state.
+ * We does not sure if the AI encourage the player to learn mathematics or it will do the opposite.
+ * In the future version, I might add Language Model and/or other feature to help blind people learn mathematics from this game.
+
+The main purpose of this game is to 
+1. Teaches player mathematics and problem solving skills.
+2. Cultivate creativity and curiouscity.
+3. Entertainment.
+4. Visualizing complicate concept.
+5. Data Visualization.
+6. When the researcher have no idea how to continue they work, they might get the new idea by playing this game.
+7. Help the comic artist, Film producer and content creator to create their story board 
+   (include non mathematical related content), but that is the least focus purpose.
+
+The first step is to 
+1. learning Lean
+2. Do the exercise from textbook (mainly about Linear Algebra Done Right, Understanding Analysis and Set Theory) by hand then use the lean and then compare it.
+3. Start implement the first version, focus on the Peano Axiom, 
+   Basic Set Theory and property of addition and multiplication of natural number with simple visualization animation. (e.g. Matplotlib and/or Manim)
+5. Slowly add new feature of the game, continue self study math and draw the new mathematical comic.
+
+Here is one of the similar project.
+* https://youtu.be/KuxFWwwlEtc?si=kNocsSj0rlbXjdg-
