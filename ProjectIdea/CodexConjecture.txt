@@ -1,0 +1,7 @@
+I will use 3 names for 3 different but related projects 
+1. Codex Conjecture 
+- CheCheConjecture but in Lean versions 
+2. Codex Category 
+- Lean Manim Library 
+3. Codex Srinivanus
+- Collection of Artworks and Automata simulation based on Codex Category 
